@@ -1,1 +1,5 @@
 <h1>{{model.name}}</h1>
+
+{{#each model.post as |post|}}
+  {{post-tile post=post}}
+{{/each}}
