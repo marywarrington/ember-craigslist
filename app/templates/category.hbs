@@ -1,8 +1,8 @@
 <h1>{{model.name}}</h1>
 
-{{#each model.post as |post|}}
+{{#each model.posts as |post|}}
   {{post-tile post=post}}
 {{/each}}
 
 
-{{new-post save="save" category=model}}
+{{new-post save="save" category=model post=model.post}}
