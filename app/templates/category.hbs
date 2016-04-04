@@ -1,7 +1,7 @@
 <h1>{{model.name}}</h1>
 
 {{#each model.posts as |post|}}
-  {{post-tile post=post}}
+  {{post-tile post=post delete='delete'}}
 {{/each}}
 
 
