@@ -5,6 +5,7 @@ export default DS.Model.extend({
   date: DS.attr('date', { defaultValue() { return new Date(); }}),
   title: DS.attr(),
   body: DS.attr(),
+  price: DS.attr(),
   image: DS.attr(),
   contact: DS.attr(),
   category: DS.belongsTo('category', { async: true }),

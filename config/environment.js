@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'craiglist',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://YOUR-FIREBASE-NAME.firebaseio.com/',
+    firebase: 'https://gregs-list.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

@@ -1,0 +1,40 @@
+{ "categories": [{
+    "name": "For Sale",
+    "posts": [{}]
+  }, {
+    "name": "For Rent",
+    "posts": [{}]
+  }, {
+    "name": "Personals",
+    "posts": [{}]
+  }],
+  "posts": [{
+    "author": "Beth",
+    "date": "03-15-2016",
+    "title": "Waterbed For Sale",
+    "body": "Has fish included. Very squishy.",
+    "price": 100,
+    "image": "https://mumsnetreading.files.wordpress.com/2015/10/screen-shot-2015-10-25-at-22-26-40.png",
+    "contact": "503-333-9999",
+    "category": [{}]
+    }, {
+    "author": "Marika",
+    "date": "03-14-2016",
+    "title": "Sweatlodge for Rent",
+    "body": "Very hot. Very sweaty. Worth every penny.",
+    "price": 500,
+    "image": "https://i.ytimg.com/vi/vuLDvWMwCwQ/hqdefault.jpg",
+    "contact": "503-333-3333",
+    "category": [{}]
+    }, {
+      "author": "Jim",
+      "date": "03-16-2016",
+      "title": "Seeking Platonic Hiking Buddy",
+      "body": "I like to hike on the weekends, and want a friend to hike with!",
+      "price": 0,
+      "image": "http://breakthefear.com/wp-content/uploads/2012/09/IMG_2736.jpg",
+      "contact": "503-332-9999",
+      "category": [{}]
+      }
+  ]
+}
